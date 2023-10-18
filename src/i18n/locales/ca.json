@@ -1,0 +1,21 @@
+{
+    "locale": {
+      "en": "Anglés",
+      "ca": "Català",
+      "es": "Espanyol"
+    },
+    "nav": {
+      "home": "Home - ca",
+      "about": "Sobre"
+    },
+    "home": {
+      "header": "BENVINGUDA Vue 3 I18n tutorial!",
+      "created_by": "Aquest tutorial was brought to you by {company}.",
+      "num_visits": "Aquesta page hasn't been visited :( | This page has been visited {n} time | This page has been visited {n} times"
+    },
+    "about": {
+      "header": "Sobre us",
+      "donations": "Donacions raised: {donations}"
+    },
+    "hola": "món"
+  }
