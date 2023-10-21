@@ -1,17 +1,17 @@
 <template>
-    <label>
-      <input
-        type="checkbox"
-        :disabled="disabled"
-        :indeterminate="val === null"
-        :checked="val === true"
-        @click="change"
-      />
-      <span>
-        {{ label }}
-      </span>
-    </label>
-  </template>
+  <label>
+    <input
+      type="checkbox"
+      :disabled="disabled"
+      :indeterminate="val === null"
+      :checked="val === true"
+      @click="change"
+    >
+    <span>
+      {{ label }}
+    </span>
+  </label>
+</template>
   
   <script setup lang="ts">
   import { ref, watch } from "vue";
