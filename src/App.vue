@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 import Nav from './components/NavMenu.vue'
 import HomeCarrousel from './components/HomeCarrousel.vue'
 import ActivityCard from './components/ActivityCard.vue'
@@ -12,18 +11,7 @@ defineProps({
 </script>
 <template>
     <Nav></Nav>
-    <HomeCarrousel url-image="lalala" url-link="jsjajajajajj"></HomeCarrousel>
-    <header>
-        <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
-        <div class="wrapper">
-            <HelloWorld msg="Add your life" />
-
-            <nav>
-                <RouterLink to="/">Home</RouterLink>
-                <RouterLink to="/about">About</RouterLink>
-            </nav>
-        </div>
-    </header>
+    <HomeCarrousel url-image="lalala"></HomeCarrousel>
     <ActivityCard></ActivityCard>
     <RouterView />
 </template>
